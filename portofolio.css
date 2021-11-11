@@ -1,0 +1,252 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: opx;
+    padding: 0px;
+}
+
+.navbar {
+    background: #D1E8E4;
+}
+
+.navbar .navbar-brand {
+    color: green;
+}
+
+.navbar .navbar-brand:hover {
+    color: #1597E5;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar ul li a {
+    color: green;
+}
+
+.navbar ul li a:hover {
+    color: #1597E5;
+}
+
+.header {
+    position: relative;
+    background-image: url(https://image.freepik.com/free-photo/businessman-pointing-his-presentation-futuristic-digital-screen_53876-102617.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.description {
+    position: absolute;
+    top: 20%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1 {
+    color: rgb(69, 153, 69);
+}
+
+.description p {
+    color: #666;
+    font-size: 20px;
+    width: 20%;
+    line-height: 1.5;
+}
+
+.about {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+
+.about h1 {
+    margin: 2em;
+    color: rgb(69, 153, 69);
+}
+
+.about img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about span {
+    display: block;
+    color: grey;
+    position: absolute;
+    left: 115px;
+    text-align: justify;
+}
+
+.about #go {
+    padding: 2em;
+    border-left: 4px solid #10828C;
+}
+
+.about h3 {
+    color: #10828C;
+}
+
+.about p {
+    line-height: 2;
+    color: #888;
+}
+
+.portofolio {
+    margin: 4em 0;
+    position: relative;
+}
+
+.portofolio h1 {
+    color: rgb(69, 153, 69);
+    margin: 2em;
+}
+
+.portofolio img {
+    height: 15rem;
+    width: 100%;
+    margin: 2em;
+}
+
+.blog {
+    margin: 4em 0;
+    position: relative;
+}
+
+.blog h1 {
+    color: rgb(69, 153, 69);
+    margin: 2em;
+}
+
+.blog .card img {
+    width: 100%;
+    height: 12em;
+}
+
+.blog .card-body {
+    padding: 1em;
+}
+
+.blog .card-tittle {
+    color: #10828C;
+}
+
+.team {
+    margin: 4em 0;
+    position: relative;
+    display: flex;
+}
+
+.team h1 {
+    color: rgb(69, 153, 69);
+    margin: 2em;
+}
+
+.team .item {
+    position: relative;
+    overflow: hidden;
+}
+
+.team img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.team .container {
+    position: relative;
+    width: 100%;
+}
+
+.overlay a {
+    text-align: center;
+    margin-left: 100px;
+    color: green;
+    padding: 10px 10px 10px 10px;
+    background-color: lawngreen;
+}
+
+.team .des {
+    background: rgb(69, 153, 69);
+    color: #fff;
+    text-align: center;
+    border-top-right-radius: 93%;
+    transition: .3s ease-in-out;
+    position: absolute;
+    width: 88%;
+    bottom: 0px;
+}
+
+.contact-form {
+    margin: 6em 0;
+    position: relative;
+}
+
+.contact-form h1 {
+    padding: 2em 1px;
+    color: rgb(69, 153, 69);
+}
+
+.contact-form .right .btn-secondary {
+    background: rgb(69, 153, 69);
+    color: #fff;
+    border: 0;
+}
+
+.icon {
+    padding: 10px;
+    background: rgb(121, 177, 38);
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid rgb(69, 153, 69);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(160, 221, 160);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.container:hover .overlay {
+    height: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
